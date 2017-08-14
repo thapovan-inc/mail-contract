@@ -4,6 +4,6 @@ import "./MailConfiguration.proto";
 message SimpleMailRequest {
     required string to = 1;
     required string body = 2;
-    optional MimeType mimeType = 3;
+    optional MimeType mimeType = 3; // [default = TEXT];
     optional MailConfiguration mailConfiguration = 4;
 }

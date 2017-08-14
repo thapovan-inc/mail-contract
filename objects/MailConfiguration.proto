@@ -1,3 +1,7 @@
-message MailConfiguration {
+import "./ServiceProvider.proto";
+import "./SMTPConfiguration.proto";
 
+message MailConfiguration {
+    required ServiceProvider serviceProvider = 1;
+    optional SMTPConfiguration smtpConfiguration = 2;
 }

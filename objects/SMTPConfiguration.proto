@@ -1,0 +1,7 @@
+message SMTPConfiguration {
+    required string host = 1;
+    optional int32 port = 2 [default = 465];
+    optional bool secure = 3 [default = true];
+    required string username = 4;
+    required string password = 5;
+}

@@ -1,0 +1,4 @@
+enum ServiceProvider {
+    SMTP =1;
+    MANDRILL = 2;
+}
