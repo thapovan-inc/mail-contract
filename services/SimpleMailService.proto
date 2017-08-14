@@ -1,0 +1,6 @@
+import "../objects/SimpleMailRequest.proto";
+import "../objects/Response.proto";
+
+service SimpleMailService {
+    rpc sendMail (SimpleMailRequest) returns (Response);
+}

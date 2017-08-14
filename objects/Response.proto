@@ -1,0 +1,5 @@
+message Response {
+    required bool success = 1;
+    optional int32 error_code = 2;
+    optional string error_msg = 3;
+}
