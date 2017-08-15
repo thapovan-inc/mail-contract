@@ -1,0 +1,9 @@
+enum QueueProvider {
+    NONE = 1;
+    KAFKA = 2;
+    RABBITMQ = 3;
+    NATS = 4;
+    AWS_SNS = 5;
+    GCP_PUBSUB = 6;
+    PUBNUB = 7;
+}

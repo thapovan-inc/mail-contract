@@ -1,7 +1,9 @@
 import "./ServiceProvider.proto";
 import "./SMTPConfiguration.proto";
+import "./QueueProvider.proto";
 
 message MailConfiguration {
     required ServiceProvider serviceProvider = 1;
     optional SMTPConfiguration smtpConfiguration = 2;
+    optional QueueProvider queueprovider = 3; // [default = NONE];
 }
